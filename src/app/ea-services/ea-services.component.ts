@@ -12,7 +12,7 @@ export class EaServicesComponent implements OnInit {
   services = [
     {
       image: 'modeling.jpeg',
-      service: 'Process Documentation',
+      service: 'Model Development',
       feature: [
         {
           item: 'Full process modeling',
@@ -30,7 +30,7 @@ export class EaServicesComponent implements OnInit {
       service: 'Root Cause Analysis',
       feature: [
         {
-          item: 'Digital process monitoring',
+          item: 'Ongoing Smart contract monitoring',
         },
         {
           item: 'Real-time anamoly detection',
@@ -45,7 +45,7 @@ export class EaServicesComponent implements OnInit {
       service: 'Rapid Solution Authoring',
       feature: [
         {
-          item: 'Bottleneck specific solution development',
+          item: 'Specific blockchain solution development',
         },
         {
           item: 'Rapid development methodology',

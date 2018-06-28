@@ -49,14 +49,15 @@ export class EaIndustriesComponent implements OnInit {
       ],
       solutions: [
         {
-          name: 'solution 1'
+          name: 'Open Source components library'
         },
         {
-          name: 'solution 2'
+          name: 'Implemented Reactive Front-end'
         },
         {
-          name: 'solution 3'
+          name: 'Continious deployment system'
         }
+ 
       ]
     },
     {
@@ -73,13 +74,13 @@ export class EaIndustriesComponent implements OnInit {
       ],
       solutions: [
         {
-          name: 'solution 1'
+          name: 'Process Modeling'
         },
         {
-          name: 'solution 2'
+          name: 'Process integration'
         },
         {
-          name: 'solution 3'
+          name: 'Real-time process oversight'
         }
       ]
     }
