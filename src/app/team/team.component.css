@@ -65,6 +65,12 @@ footer main li:nth-child(1){
     cursor: pointer;
   }
 
+  footer main li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 20px;
+  }
+
 .socials-bg{ 
   display: flex;
   justify-content: space-between;

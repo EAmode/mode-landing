@@ -17,12 +17,29 @@ nav a {
     color: white;
 }
 
+nav div {
+
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+
+}
+
+nav div span {
+    margin-left: 1rem;
+}
+
 nav ul {
     margin: 0 ;
     padding: 0;
     width: 15%;
     display: flex;
     justify-content: space-evenly;
+}
+
+nav ul li a {
+    font-size: 20px;
 }
 
 .logo {
