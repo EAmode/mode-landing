@@ -1,9 +1,23 @@
-  <aside *ngFor="let items of services">
-    <div class="image-card">
-      <img style="height: 100%; weird: 100%;" src="../../assets/images/{{items.image}}" alt="">
-    </div>
-    <span class="header"> <h2>{{items.service}}</h2><img class="checkmark" src="../../assets/images/crown.svg" alt=""></span>
-    <ul >
-      <li *ngFor="let feats of items.feature"><span><img class="checkmark" src="../../assets/images/checkmark.svg" alt=""></span>{{feats.item}}</li>
-    </ul>
-  </aside>
+<section id="documentation">
+  <div class="offering">
+      <h3>central Source of truth</h3>
+      <h2>Organize your enterprise into one, central repository of all your process documentation.</h2>
+      <ul>
+          <li>
+            <img src="../../assets/images/e2e.svg" alt="">
+            <div>Review and documentation of existing standards</div>
+          </li>
+          <li>
+            <img src="../../assets/images/standardization.svg" alt="">
+            <div>Organization-wide standardization and integration strategy</div>
+          </li>
+          <li>
+              <img src="../../assets/images/target.svg" alt="">
+              <div>KPI measurement and implementation plan</div>
+            </li>
+        </ul>
+  </div>
+  
+  <img class="value-image" src="../../assets/images/documentation.svg" alt="">
+
+</section>

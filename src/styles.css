@@ -1,16 +1,16 @@
 /*VARIABLES*/
 :root {
   --color1: #333333;
-  --color2: #ffffff;
+  --color2: #333333;
   --backgroundColor-1: #e4e4e4;
   --background-2: #000;
 
   --accent-1: #426c0b;
   --accent-2: #426c0b;
 
-  --background-1: #1d1d1d;
+  --background-1: #fff;
   --background-2: rgb(245, 245, 245);
-  --background-3: #355a7a;
+  --background-3: #333333;
 
   --error-color: red;
   --font-1: "Open Sans";
@@ -27,6 +27,134 @@ body {
   background: var(--background-1);
 }
 
+section.main img.nav {
+  width: 50px;
+  position: fixed;
+  top: 10px;
+  left: 25px;
+  z-index: 999;
+}
+
+
+.offering h2 {
+    margin: -8px 0 24px;
+}
+
+.offering ul {
+  margin: 0;
+  padding: 0;
+}
+
+.offering ul li {
+  list-style: none; 
+  display: flex;
+  margin: 0 0 24px 0;
+}
+
+.offering ul li img {
+ height: 25px;
+ width: 25px;
+}
+
+.offering ul li div {
+  margin: 0;
+  font-size: 18px;
+  padding-left: 18px;
+}
+
+  .title.services {
+    display: flex;
+    font-size: 2rem;
+
+    font-size: 22px;
+  }
+  @media only screen and (max-width: 1200px) {
+    .title.services {
+      font-size: 18px;
+    }
+  }
+
+
+#documentation {
+  height: 75vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+
+.section-title{
+  padding-left: 15px;
+}
+
+.offering {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .offering {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    max-width: 85%;
+  }
+
+  #documentation {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+    height: auto;
+  }
+
+  .value-image  {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+}
+
+.offering h1 {
+  margin:0;
+}
+
+.offering h3 {
+  text-transform: uppercase;
+  color: var(--color2);
+  margin:0 0 12px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .offering h2 {
+   font-size:16px;
+  }
+  
+  .offering h3 {
+    font-size: 16px;
+  }
+
+  .offering ul {
+    margin-bottom: 2rem;
+  }
+
+  
+  .offering ul li div {
+    font-size: 14.5px;
+  }
+
+.title.services img {
+  margin-left:25px;
+  width: 10%;
+}
+}
+
+
+/* 
 section.main {
 
 z-index: 10;
@@ -38,22 +166,9 @@ section.team-main {
 }
 
 
-section.main img.nav {
-  width: 50px;
-  position: fixed;
-  top: 10px;
-  left: 25px;
-  z-index: 999;
-}
 
-/* ea-card {
 
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 2rem;
-  justify-content: space-evenly;
 
-} */
 
 section.radar {
   background: var(--background-1);
@@ -85,17 +200,6 @@ align-items: center;
 position: relative;
 }
 
-.title.services {
-  background-image: url("/assets/images/background-wood.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.title.team {
-  background-image: url("/assets/images/caseStudy.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .title .cover {
   position: absolute;
@@ -208,13 +312,13 @@ section.main li > a{
   color: white;
   text-decoration: none;
   white-space: nowrap;
-}
-
+} */
+/* 
 section.main main {
   display: flex;
   align-items: center;
   height: 100vh;
-  /*background: #1d1d1d;*/
+  background: #1d1d1d;
   color: white;
   opacity: .93;
   justify-content: space-around;
@@ -247,35 +351,18 @@ section.benefits div.card {
   flex-direction: column;
 }
 
-footer {
-  height: 35vh;
-  background: #3B3B3B;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-footer aside {
-  height: 35vh;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  color: white;
-}
 
 form {
   display: flex;
   flex-direction: column;
   width: 30%;
-}
-
+} */
+/* 
 form button {
   height: 4rem;
   width: 10rem;
   color: white;
-/*  padding: 2rem; */
+ padding: 2rem;
   border: 3px solid white;
   background: none;
 }
@@ -302,28 +389,10 @@ margin: 0;
 #advisors {
   margin-bottom: 2rem;
 }
-footer main li:nth-child(1){
-font-size: 22px;
-}
 
-footer main {
-  display: flex;
-  justify-content: space-evenly;
-  width: 60%;
-}
+} */
 
-footer aside h2 {
-  margin: 0
-}
 
-footer main ul {
-  list-style: none;
-  color: white;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
 
 .hvr-underline-from-center {
   display: inline-block;
@@ -354,8 +423,6 @@ footer main ul {
   left: 0;
   right: 0;
 }
-
-
 /* Curl Bottom Left */
 .hvr-curl-bottom-left {
   display: inline-block;

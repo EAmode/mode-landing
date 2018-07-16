@@ -1,54 +1,53 @@
+<app-nav></app-nav>
 <section class="main">
-  <img class="nav" alt="" src="../assets/images/crown.svg">
-  <app-nav></app-nav>
-  <main style="position: relative;">
-    <div style="position: relative;">
-      <aside style="z-index: 10;">
-        <h2>
-          EAmode Technologies
-        </h2>
-        <h3>The Blockchain Consulting Group</h3>
-        <!-- <br>
-      <br>
-      <h3>Bring your enterprise into the future with:</h3> -->
-        <!-- <ul class="value-props">
-
-        <span>
-          <img style="" alt="" src="../assets/images/logo.svg">
-          <li style="margin-left:5px;">Rapid application development</li>
-        </span>
-        <span>
-          <img alt="" src="../assets/images/logo.svg">
-          <li style="margin-left:5px;">real-time process oversight</li>
-        </span>
-        <span>
-          <img alt="" src="../assets/images/logo.svg">
-          <li style="margin-left:5px;">ongoing anamoly detection</li>
-        </span>
-        <span>
-          <img alt="" src="../assets/images/logo.svg">
-          <li style="margin-left:5px;">fully equiped native analytics</li>
-        </span>
-      </ul> -->
-      </aside>
-      <img style="z-index: -1; position: absolute; top: -150%; transform: scale(1.25);" src="../../assets/images/disco.svg" alt="">
-      <!-- <img style="z-index: -1; position: absolute; top: -150%; transform: scale(1.45);" src="../../assets/images/crown.svg" alt=""> -->
-    </div>
-    <!-- <img style="z-index: -1; position: absolute; height: 50vh; top: 0; right: -12.5%; opacity: 0.1;" src="../../assets/images/crown.svg" alt=""> -->
-    <div style="width: 10rem; position: absolute; bottom: 2rem; left: 2rem;" class="bottom-text">
-      <h2 style="font-size: 14px;">The Blockchain Optimization Company</h2>
-      <p style="font-size: 12px;">A group of executives and innovators building the next generation platform for real-time blockchain optimization.</p>
-    </div>
+  <main id="header">
+      <h1>EA Mode enables faster business transformation</h1>
+      <h3>Our team of process engineering experts has 40+ years
+        servicing Fortune 100 and NASDAQ listed clients through 
+        transformation initatives. We use our expertise to walk
+        clients through process optimization initatives.</h3>
+       <aside>
+        <ul>
+          <li>
+            <a href="#services-documentation">
+              <h2>Documentation</h2>
+              <p class="cta-text">Full end-to-end process documentation. Available in your secure process repository.</p>
+              <div class="learn-more">
+                <span>Learn More</span>
+                <img src="../../assets/images/arrow.svg" alt="">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#studies">
+              <h2>MODE Platform</h2>
+              <p class="cta-text">Analytics, alerts, and (enterprise-wide) process orchestration, done with less.</p>
+              <div class="learn-more">
+                <span>Learn More</span>
+                <img src="../../assets/images/arrow.svg" alt="">
+              </div>
+            </a>
+            </li>
+            <li>
+              <a href="#sdlc">
+                <h2>Development</h2>
+                <p class="cta-text">Managed Software Dvelopment Life Cycle (SDLC) from concept to implementation. </p>
+                <div class="learn-more">
+                  <span>Learn More</span>
+                  <img src="../../assets/images/arrow.svg" alt="">
+                </div>
+              </a>
+              </li>
+        </ul>
+       </aside>
   </main>
-  <particles class="particles" [width]="width" [height]="height" [params]="myParams"></particles>
-  <div class="bg"></div>
+
 </section>
 
-<section id="services" class="radar">
-  <div class="title services">
-    <div class="cover"></div>
+<section id="services-documentation" class="radar">
+  <div  class="title services">
     <img src="../assets/images/line.svg" alt="">
-    <span>ea-Services</span>
+    <span class="section-title">Business Process Documentation</span>
   </div>
   <main>
     <ea-services></ea-services>
@@ -57,18 +56,12 @@
 </section>
 
 <section id="studies" class="industries">
-  <div class="title team">
-    <div class="cover"></div>
+  <div class="title services">
     <img src="../assets/images/line.svg" alt="">
-    <span>ea-Case Studies</span>
+    <span class="section-title">Business Process Analytics</span>
   </div>
   <main class="case-studies">
     <app-ea-industries></app-ea-industries>
-    <!-- <button (click)="toggleCaseStudy()"></button>
-    <div *ngIf="caseStudy === true">
-      <div class="expandable">
-      </div>
-    </div> -->
   </main>
 </section>
 
