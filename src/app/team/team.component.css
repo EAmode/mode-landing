@@ -76,6 +76,9 @@ footer main li:nth-child(1){
   justify-content: space-between;
   background: #272727;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .socials-icons {
