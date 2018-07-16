@@ -1,0 +1,39 @@
+nav {
+    background: linear-gradient(#1d1d1d, #3B3B3B );
+
+    margin: 0;
+    padding:0;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 12px rgba(0,0,0,.09);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    margin: 0 ;
+    padding: 0;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 45px;
+    padding-left: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav ul {
+        width: 60%;
+ 
+    }
+    
+  }
